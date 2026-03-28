@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  analysis:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./output:/app/output
+    command: ["sh", "run_pipeline.sh"]
