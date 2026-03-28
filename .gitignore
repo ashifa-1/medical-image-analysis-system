@@ -1,0 +1,13 @@
+# Ignore data
+data/raw/
+data/processed/
+
+# Ignore models
+models/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
